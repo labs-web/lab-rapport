@@ -9,7 +9,7 @@ order : 1
 {% for chapitre in chapitres %}
     <page size="A4">
     {{ chapitre.content }}
-    <page>
+    </page>
 {%- endfor -%}  
 </div>
 
