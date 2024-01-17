@@ -5,7 +5,7 @@ description: Rapport de la phase besoin
 locale: fr_FR
 # environment: production
 # URL
-baseurl: "/"
+baseurl: "/lab-rapport"
 # url: "https://...com" 
 
 
