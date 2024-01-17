@@ -2,7 +2,7 @@ body {
   background: rgb(204,204,204);
   font: 12pt "Tahoma"; 
 } 
-page[size="A4"] {
+article[size="A4"] {
   display: block;
   width: 21cm;
   height: 29.7cm;
@@ -16,7 +16,7 @@ page[size="A4"] {
 }
 
 @media print {
-body, page[size="A4"] {
+body, article[size="A4"] {
   margin: 0;
   padding: initial;
   box-shadow: initial;
