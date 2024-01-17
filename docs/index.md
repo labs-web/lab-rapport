@@ -4,14 +4,12 @@ slug: /index
 order : 1
 ---
 
-# Rapport 
-
+<div class="book">
 {%- assign chapitres = site.chapitres | sort: "order"  -%}
 {% for chapitre in chapitres %}
-<page size="A4">
-  {{ chapitre.content }}
-<page>
-<page size="A4">
-  {{ chapitre.content | markdownify }}
-<page>
-{%- endfor -%}
+    <page size="A4">
+    {{ chapitre.content }}
+    <page>
+{%- endfor -%}  
+</div>
+
