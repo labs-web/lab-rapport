@@ -16,7 +16,7 @@ baseurl: "/"
 #   h_max: 3
   
 
-Collections
+# Collections
 collections:
   chapitres:
     output: true
