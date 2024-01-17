@@ -8,10 +8,10 @@ order : 1
 
 {%- assign chapitres = site.chapitres | sort: "order"  -%}
 {% for chapitre in chapitres %}
-    <article>
-        {{ chapitre.content }}
-    </article>
-     <article>
-        {{ chapitre.content | markdownify }}
-    </article>
+<page size="A4">
+  {{ chapitre.content }}
+<page>
+<page size="A4">
+  {{ chapitre.content | markdownify }}
+<page>
 {%- endfor -%}
