@@ -1,11 +1,22 @@
 body {
   background: rgb(204,204,204);
-  font: 12pt "Tahoma"; 
+  font: 12pt "Roboto"; 
 } 
 
 /* fix image taille error */
 img {
   width: 100%;
+}
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 30px;
+}
+figcaption{
+  font-style: italic;
+  color: gray;
+  text-align: center;
 }
 
 article[size="A4"] {
