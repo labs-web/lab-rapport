@@ -2,9 +2,12 @@
 
 ## Backlog 
 
+- Backlog
 - rapport-css
-- rapport-markdown
-  - Impression d'un rapport depuis markdown
+- rapport-gh-pages
+- rapport-Jekyll
 
 
-## 
+## Références 
+
+[WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG)
