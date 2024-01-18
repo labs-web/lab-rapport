@@ -1,12 +1,19 @@
 body {
-  background: rgb(204,204,204);
-  font: 12pt "Tahoma"; 
+  font: 12pt "Arial"; 
 } 
 
 /* fix image taille error */
 img {
-  width: 400px;
-  height: 200px;
+  width: 100%;
+}
+h2 {
+  font-size: 14pt;
+}
+
+figcaption {
+  text-align: center;
+  margin: 3% 0;
+  /* font-weight: bold; */
 }
 
 article[size="A4"] {
