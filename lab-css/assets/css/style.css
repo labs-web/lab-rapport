@@ -1,12 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+
 body {
-  background: rgb(204,204,204);
-  font: 12pt "Tahoma"; 
-} 
+  font: 14pt "Roboto"; 
+}
 
 /* fix image taille error */
 img {
-  width: 400px;
-  height: 200px;
+  width: 100%;
+}
+
+h2{
+  font-size: 11pt
+}
+
+p{
+  font-size: 10pt;
+}
+
+#image:nth-child(n){
+  font-size: 9pt;
+  color: #787878;
+  text-align: center;
+  font-style: italic;
 }
 
 article[size="A4"] {
@@ -18,6 +34,7 @@ article[size="A4"] {
   /* margin-bottom: 0.5cm; */
   box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
 }
+
 
 @media print {
 body, article[size="A4"] {
