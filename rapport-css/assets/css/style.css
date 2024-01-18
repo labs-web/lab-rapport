@@ -5,8 +5,7 @@ body {
 
 /* fix image taille error */
 img {
-  width: 400px;
-  height: 200px;
+  width: 100% ;
 }
 
 article[size="A4"] {
