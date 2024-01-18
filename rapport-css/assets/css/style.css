@@ -1,0 +1,31 @@
+body {
+  background: rgb(204,204,204);
+  font: 12pt "Tahoma"; 
+} 
+
+/* fix image taille error */
+img {
+  width:  100%;
+  max-height: 600px;
+}
+
+article[size="A4"] {
+  display: block;
+  width: 21cm;
+  background: white;
+  padding: 1cm;
+  margin: 1cm auto;
+  /* margin-bottom: 0.5cm; */
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+figcaption{
+  text-align: center;
+}
+
+@media print {
+body, article[size="A4"] {
+  margin: 0;
+  padding: initial;
+  box-shadow: initial;
+}
+}
