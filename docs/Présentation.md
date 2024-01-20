@@ -2,7 +2,9 @@
 layout : chapitre
 order : 1
 ---
-# Apprendre HTML5 et CSS3 par projets
+# Présentation 
+
+## Apprendre HTML5 et CSS3 par projets
 
 
 Vous voulez apprendre le **HTML5** et le **CSS3** en développant des **projets** simples ? Vous voulez construire un **portfolio** mais vous n’avez pas d’idée de projet ?
