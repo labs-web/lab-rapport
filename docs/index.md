@@ -4,7 +4,6 @@ slug: /index
 order : 1
 ---
 
-
 <div class="book">
 {%- assign pages = site.pages | sort: "order"  -%}
 {% for page in pages %}
