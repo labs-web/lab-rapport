@@ -5,7 +5,9 @@
 
 - keyword
   - slide html5
-  - 
+  
+note: note
+
 <!-- new slide -->
 ## à utiliser 
 
@@ -16,6 +18,7 @@
 <!-- new slide -->
 ## à tester 
 
+- [decktape](https://github.com/astefanutti/decktape)
 
 - [impress.js](https://github.com/impress/impress.js)
 - [slides](https://github.com/briancavalier/slides)

@@ -20,13 +20,21 @@
         <script src="../../assets/presentation//plugin/math/math.js"></script>
 		<script>
 			Reveal.initialize({
+				view: 'scroll',
+				scrollProgress: true,
 				controls: true,
+				controlsTutorial: true,
 				progress: true,
 				history: true,
 				center: true,
-
+				slideNumber: true,
+				showSlideNumber: 'all',
+				jumpToSlide: true,
+				overview: true,
+				
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
 			});
+		 
 		</script>
 	</body>
 </html>
