@@ -9,7 +9,7 @@
 <!-- new slide -->
 ## à utiliser 
 
-- [reveal.js](https://github.com/hakimel/reveal.js/)
+- [reveal.js](https://revealjs.com/)
   - Il support Markdown
   - https://revealjs.com/markdown/
 
