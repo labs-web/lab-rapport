@@ -1,7 +1,5 @@
 ---
 layout : default
-slug: /index
-order : 1
 ---
 
 <div class="book">
@@ -12,4 +10,3 @@ order : 1
 </article>
 {% endfor %}  
 </div>
-
