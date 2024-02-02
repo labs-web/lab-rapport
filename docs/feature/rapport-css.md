@@ -14,7 +14,7 @@
 
 ## Livrable
 
-    - docs/feature/rapport-css.md
-    - docs/assets/css/rapport.css
-    - docs/assets/images/*
-    - docs/assets/rapport-css.html
+- docs/feature/rapport-css.md
+- docs/assets/css/rapport.css
+- docs/assets/images/*
+- docs/assets/rapport-css.html
