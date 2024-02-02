@@ -127,9 +127,7 @@ SALMA LIKRAM
 
 
 ## Empathie avec assistant dentaire médecin spécialiste Interne
-
 ![assistant dentaire médecin Carte d'empathie](images/assistant-dentaire-spécialiste-Interne.png)
-
 
 ### Persona
 Tallaoui sanae
