@@ -27,7 +27,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --r-heading-font-weight: 600;
   --r-heading1-text-shadow: none;
   --r-heading1-size: 2.5em;
-  --r-heading2-size: 1.6em;
+  --r-heading2-size: 1.0em;
   --r-heading3-size: 1.3em;
   --r-heading4-size: 1em;
   --r-code-font: monospace;
@@ -92,10 +92,17 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 .reveal h1 {
   font-size: var(--r-heading1-size);
+  background-color: #00838F;
+  padding: 10px;
+  color: #fff;
 }
 
 .reveal h2 {
   font-size: var(--r-heading2-size);
+  background-color: #00838F;
+  padding: 10px;
+  color: #fff;
+
 }
 
 .reveal h3 {
@@ -356,4 +363,23 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   .backgrounds {
     background-color: var(--r-background-color);
   }
+}
+
+.reveal ul{
+  display: flex;
+  justify-content: flex-start;
+}
+.reveal li {
+  margin-top: 10%;
+  font-size: 18px;
+  text-align: start;
+}
+
+.reveal p{
+  text-align: start;
+  font-size: 17px;
+}
+
+.reveal img{
+  margin-left: 3%;
 }

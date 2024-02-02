@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Présentation</title>
+		<link rel="stylesheet" href="../assets/presentation/dist/reveal.css">
+		<link rel="stylesheet" href="../assets/presentation/dist/theme/white.css" id="theme">
+        <link rel="stylesheet" href="../assets/presentation/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+                <section data-markdown="../feature/présentation-css.md" data-separator="<!-- new slide -->" data-separator-vertical="<!-- new detail-->"></section>
+            </div>
+		</div>
+		<script src="../assets/presentation//dist/reveal.js"></script>
+        <script src="../assets/presentation//plugin/markdown/markdown.js"></script>
+        <script src="../assets/presentation//plugin/highlight/highlight.js"></script>
+        <script src="../assets/presentation//plugin/notes/notes.js"></script>
+        <script src="../assets/presentation//plugin/math/math.js"></script>
+		<script>
+			Reveal.initialize({
+				view: 'scroll',
+				scrollProgress: true,
+				controls: true,
+				controlsTutorial: true,
+				progress: true,
+				history: true,
+				center: true,
+				slideNumber: true,
+				showSlideNumber: 'all',
+				jumpToSlide: true,
+				overview: true,
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+			});
+		 
+		</script>
+	</body>
+</html>

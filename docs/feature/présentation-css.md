@@ -1,28 +1,42 @@
-# présentation-css
+# Besoin cnmh
 
 <!-- new slide -->
-## Recherche sur google
+## Empathie avec service social
 
-- keyword
-  - slide html5
+Une séance d’empathie a été réalisée avec
+
+![service social Carte d'empathie](../images/service-social.png)
+
+<!-- new slide -->
+## Code source 
+
+Code source d'entretien social
+
+```bash
+public function FormEntretienSocial($PatientID){
+        $editMode = false; 
+        $couvertureMedical = new CouvertureMedicalRepository;
+        $couverture_medical = $couvertureMedical->all();
+        $typeHandicap = new TypeHandicapRepository;
+        $type_handicap = $typeHandicap->all();
+        $service = new ServiceRepository;
+        $services = $service->all();
+        $latestDossier = $this->dossierPatientRepository->NumeroDossier();
+        $counter = $latestDossier ? (int)substr($latestDossier, 2) + 1 : 1;
+        $numeroDossier = 'A-' . $counter;
+        $PatientID = $PatientID;
+        return view('PoleSocial.dossier_patients.entretien', compact('type_handicap', 'couverture_medical','services','editMode','PatientID','numeroDossier'));
+}
+
+```
+
+<!-- new slide -->
+## Reference 
+
+- [Besoin cnmh](https://github.com/cnmh/besoin)
   
-note: note
 
-<!-- new slide -->
-## à utiliser 
 
-- [reveal.js](https://revealjs.com/)
-  - Il support Markdown
-  - https://revealjs.com/markdown/
 
-<!-- new slide -->
-## à tester 
 
-- [decktape](https://github.com/astefanutti/decktape)
 
-- [impress.js](https://github.com/impress/impress.js)
-- [slides](https://github.com/briancavalier/slides)
-
-<!-- new slide -->
-# Références
-- []()
