@@ -5,7 +5,10 @@ body {
 }
 
 
-
+img + p {
+  color: rgb(137, 134, 134);
+  text-align: center;
+}
 img {
   width: 100%;
 }
@@ -37,7 +40,15 @@ h1 {
 h2 {
   font-size: 30px;
 }
-
+body[size="A4"] {
+  display: block;
+  width: 21cm;
+  background: white;
+  padding: 1cm;
+  margin: 1cm auto;
+  /* margin-bottom: 0.5cm; */
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
 article[size="A4"] {
   display: block;
   width: 21cm;
@@ -47,6 +58,7 @@ article[size="A4"] {
   /* margin-bottom: 0.5cm; */
   box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
 }
+
 body {
   font-family: Arial, sans-serif;
 }
@@ -65,10 +77,18 @@ ul li {
   border-radius: 5px;
 }
 
+pre{
+  font-family: monospace;
+  background-color: #f0f0f0;
+  /* padding: 10px; */
+  border-radius: 5px;
+}
+
 @media print {
 
   body,
-  article[size="A4"] {
+  body,
+  [size="A4"] {
     margin: 0;
     padding: initial;
     box-shadow: initial;
@@ -77,7 +97,5 @@ ul li {
   img {
     width: 85%;
   }
-
-
 }
 
