@@ -26,11 +26,11 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 1.5em;
 }
 
-h2 {
-  font-size: 25px;
+h3 {
+  font-size: 1.17em;
 }
 
 article {
@@ -41,6 +41,11 @@ article {
   margin: 1cm auto;
   /* margin-bottom: 0.5cm; */
   box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+sup {
+  padding: 5px;
+  float: right;
 }
 
 
