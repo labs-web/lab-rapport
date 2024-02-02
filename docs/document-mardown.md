@@ -5,6 +5,7 @@
 Une séance d’empathie a été réalisée avec Khawla souan, en tant que personnel du service social, le 20 mars 2023.
 
 ![service social Carte d'empathie](./images/service-social.png)
+<p>Figure 1: Carte d'empathie service social</p>
 
 
 ## Code source 

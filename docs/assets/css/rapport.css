@@ -33,7 +33,7 @@ h2 {
   font-size: 30px;
 }
 
-article[size="A4"] {
+body[size="A4"] {
   display: block;
   width: 21cm;
   background: white;
