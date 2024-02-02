@@ -35,6 +35,9 @@ img + p {
   color: #666;
   margin-top: 5px;
 }
+p {
+  line-height: 26px;
+}
 h2 {
   font-size: 30px;
 }
