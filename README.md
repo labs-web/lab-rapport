@@ -16,6 +16,7 @@ Le backlog est une liste ordonées des tâches
   - [1.Backlog.18.md](./Backlog/feature/1.Backlog.18.md) 
   - [2.document-markdown.29.md](./Backlog/feature/2.document-markdown.29.md) 
   - [3.rapport-css.5.md](./Backlog/feature/3.rapport-css.5.md) 
+  - [4.utilisation-jekyll.md](./Backlog/feature/4.utilisation-jekyll.md) 
 ## Livrables 
 
  
