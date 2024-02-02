@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/docs/assets/css/rapport.css"> <!-- Replace with the correct path to your CSS file -->
+    <title>Empathy Session with Service Social</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Besoin cnmh</h1>
+    </header>
+
+    <main>
+
+        <section id="empathy-session">
+            <h2>Empathie avec service social</h2>
+            <p>Une séance dmpathie a été réalisée avec Khawla souan, en tant que personnel du service social, le 20 mars 2023.</p>
+            <img src="/docs/images/service-social.png" alt="service social Carte d'empathie">
+            <p class="image-caption">Figure 1 : srvice social.</p>
+        </section>
+
+        <section id="code-source">
+            <h2>Code source</h2>
+            <p>Code source d'entretien social</p>
+
+            <pre>
+                <code>
+public function FormEntretienSocial($PatientID){
+    $editMode = false; 
+    $couvertureMedical = new CouvertureMedicalRepository;
+    $couverture_medical = $couvertureMedical->all();
+    $typeHandicap = new TypeHandicapRepository;
+    $type_handicap = $typeHandicap->all();
+    $service = new ServiceRepository;
+    $services = $service->all();
+    $latestDossier = $this->dossierPatientRepository->NumeroDossier();
+    $counter = $latestDossier ? (int)substr($latestDossier, 2) + 1 : 1;
+    $numeroDossier = 'A-' . $counter;
+    $PatientID = $PatientID;
+    return view('PoleSocial.dossier_patients.entretien', compact('type_handicap', 'couverture_medical','services','editMode','PatientID','numeroDossier'));
+}
+                </code>
+            </pre>
+        </section>
+
+        <section id="sample-list">
+            <h2>Sample List</h2>
+            <ul>
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+            </ul>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
