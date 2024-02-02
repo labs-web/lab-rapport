@@ -2,6 +2,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  width: 80%;
+  margin: auto;
 }
 
 /* fix image taille error */
@@ -9,16 +11,10 @@ img {
   width: 100%;
 }
 
-figure {
-  margin: 0;
-  padding: 0;
-}
 
-figcaption {
+img+p {
+  display: block;
   text-align: center;
-}
-
-figcaption {
   font-style: italic;
   font-size: 14px;
   color: #666;
@@ -33,7 +29,11 @@ h2 {
   font-size: 30px;
 }
 
-article[size="A4"] {
+h2 {
+  font-size: 25px;
+}
+
+article {
   display: block;
   width: 21cm;
   background: white;
@@ -43,10 +43,11 @@ article[size="A4"] {
   box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
 }
 
+
 @media print {
 
   body,
-  article[size="A4"] {
+  article {
     margin: 0;
     padding: initial;
     box-shadow: initial;
