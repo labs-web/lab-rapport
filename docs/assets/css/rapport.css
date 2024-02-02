@@ -28,7 +28,13 @@ figcaption {
 h1 {
   font-size: 40px;
 }
-
+img + p {
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
 h2 {
   font-size: 30px;
 }
