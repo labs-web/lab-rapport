@@ -3,9 +3,12 @@
 ## Backlog 
 
 - Backlog
-- rapport-css
-- rapport-gh-pages
-- rapport-Jekyll
+- Rapport css 
+- rapport markdon 
+- installation jekyll
+- document markdown 
+- présentation  reveal 
+
 
 
 ## Références 
