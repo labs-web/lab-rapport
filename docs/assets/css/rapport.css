@@ -2,6 +2,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  width: 80%;
+  margin: auto;
 }
 
 /* fix image taille error */
@@ -64,6 +66,14 @@ li {
   margin-right: auto;
   width: 80%;
 }
+
+
+    img+p {
+    
+    
+      padding: 2px; 
+      text-align: center; 
+    }
 
 @media print {
 
