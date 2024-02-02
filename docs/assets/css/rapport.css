@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;800&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -9,7 +9,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 80%;
   
 }
 
@@ -32,7 +32,7 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 80%;
 }
 
 h1 {
@@ -40,14 +40,14 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 80%;
 }
 
 h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;}
+  width: 80%;}
 
 article[size="A4"] {
   display: block;
@@ -57,6 +57,12 @@ article[size="A4"] {
   margin: 1cm auto;
   /* margin-bottom: 0.5cm; */
   box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+li {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 @media print {
