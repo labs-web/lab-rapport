@@ -1,15 +1,13 @@
 ---
 layout : default
-slug: /index
-order : 1
 ---
 
-<div class="book">
-{%- assign chapitres = site.chapitres | sort: "order"  -%}
-{% for chapitre in chapitres %}
+
+<!-- <div class="book">
+{%- assign pages = site.pages | sort: "order"  -%}
+{% for page in pages %}
 <article size="A4">
-    {{ chapitre.content }}
+    {{ page.content }}
 </article>
 {% endfor %}  
-</div>
-
+</div> -->
