@@ -15,6 +15,7 @@ Le backlog est une liste ordonées des tâches
   - [3.rapport-css.5.md](./Backlog/feature/3.rapport-css.5.md) 
   - [4.présentation-markdown.20.md](./Backlog/feature/4.présentation-markdown.20.md) 
   - [4.utilisation-jekyll.27.md](./Backlog/feature/4.utilisation-jekyll.27.md) 
+  - [5.nouvelle-page.md](./Backlog/feature/5.nouvelle-page.md) 
   - [5.numéro-pages.77.md](./Backlog/feature/5.numéro-pages.77.md) 
   - [6.page-garde.78.md](./Backlog/feature/6.page-garde.78.md) 
   - [6.table-matière.79.md](./Backlog/feature/6.table-matière.79.md) 
@@ -32,5 +33,5 @@ Le backlog est une liste ordonées des tâches
 
  
 
-- [Autoformation](#) 
+- [Documentation](https://labs-web.github.io/lab-rapport/) 
 
