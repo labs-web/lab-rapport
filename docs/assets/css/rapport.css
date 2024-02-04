@@ -1,12 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;800&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
+  width: 80%;
+  margin: auto;
 }
 
 /* fix image taille error */
 img {
-  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  
 }
 
 figure {
@@ -24,14 +30,26 @@ figcaption {
   color: #666;
   margin-top: 5px;
 }
+p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
 
 h1 {
   font-size: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 h2 {
-  font-size: 30px;
-}
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;}
 
 article[size="A4"] {
   display: block;
@@ -42,6 +60,26 @@ article[size="A4"] {
   /* margin-bottom: 0.5cm; */
   box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
 }
+li {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+
+    img+p {
+    
+    
+      padding: 2px; 
+      text-align: center; 
+    }
+    code {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
 
 @media print {
 
