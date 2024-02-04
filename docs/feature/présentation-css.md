@@ -1,6 +1,10 @@
+---
+layout : default
+order : 2
+---
 # présentation-css
 
-<!-- new slide -->
+
 ## Recherche sur google
 
 - keyword
@@ -8,14 +12,14 @@
   
 note: note
 
-<!-- new slide -->
+
 ## à utiliser 
 
 - [reveal.js](https://revealjs.com/)
   - Il support Markdown
   - https://revealjs.com/markdown/
 
-<!-- new slide -->
+
 ## à tester 
 
 - [decktape](https://github.com/astefanutti/decktape)
@@ -23,6 +27,6 @@ note: note
 - [impress.js](https://github.com/impress/impress.js)
 - [slides](https://github.com/briancavalier/slides)
 
-<!-- new slide -->
+
 # Références
 - []()
