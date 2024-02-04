@@ -28,9 +28,7 @@ figcaption {
 h1 {
   font-size: 40px;
 }
-.code {
-  background-color: aqua;
-}
+
 /* ca c'est figure */
 img + p {
   text-align: center;
