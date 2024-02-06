@@ -4,8 +4,11 @@ order : 2
 ---
 # Présentation css
 
+<!-- new slide -->
 
 ## Recherche sur google
+
+<!-- new detail -->
 
 - keyword
   - slide html5
