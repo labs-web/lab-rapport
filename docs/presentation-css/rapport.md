@@ -5,7 +5,6 @@ order : 2
 
 # Présentation 
 
-
 <!-- new slide -->
 
 ## Titre 2
