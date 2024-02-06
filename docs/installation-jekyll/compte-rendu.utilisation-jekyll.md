@@ -8,6 +8,7 @@ order : 2
 ## Installation 
 
 <!-- TODO : Procédure d'installation de Jekyll -->
+<!-- new slide -->
 
 ## Exemple de création d'un site web 
 
@@ -23,6 +24,7 @@ Exécution de site web
 ```bash
 bundle exec jekyll serve
 ```
+<!-- new slide -->
 
 ## Utilisation 
 
@@ -34,6 +36,7 @@ bundle exec jekyll serve
 /my-baseurl/assets/style.css
 
 ```
+<!-- new slide -->
 
 ### Markdownify
 
@@ -42,7 +45,10 @@ Convert a Markdown-formatted string into HTML.
 ```conf
 {{ page.excerpt | markdownify }}
 ```
+<!-- new slide -->
 
 # Références
 - [jekyllrb](https://jekyllrb.com/)
 - [Liquid filters](https://jekyllrb.com/docs/liquid/filters/)
+
+<!-- new slide -->
