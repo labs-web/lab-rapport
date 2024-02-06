@@ -3,7 +3,6 @@ layout: default
 title: structure-des-dossciers.md
 order: 1
 ---
-<!--  -->
 
 # Backlog
 

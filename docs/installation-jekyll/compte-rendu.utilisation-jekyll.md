@@ -45,3 +45,4 @@ Convert a Markdown-formatted string into HTML.
 
 # Références
 - [jekyllrb](https://jekyllrb.com/)
+- [Liquid filters](https://jekyllrb.com/docs/liquid/filters/)
