@@ -8,9 +8,12 @@ order: 1
 ## Structure des dossiers
 <!-- new slide -->
 
+<!-- note -->
 
 - docs
   - Index.md
+  - rapport.md
+  - presentation.md
   - Introduction
     - images
     - Introduction.md
