@@ -6,7 +6,7 @@ order: 1
 
 # Backlog
 ## Structure des dossiers
-<!-- new slide -->
+![Structure-des-dossiers](/lab-rapport/backlog/images/Structure-des-dossiers.jpg)
 
 <!-- note -->
 
@@ -26,8 +26,7 @@ order: 1
       - structure de dossier
   -  rapport.md
   -  présentation.html
-
-
-
-
 <!-- new slide -->
+
+
+

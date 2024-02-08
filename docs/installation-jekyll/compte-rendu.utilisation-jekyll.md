@@ -48,7 +48,9 @@ Convert a Markdown-formatted string into HTML.
 <!-- new slide -->
 
 # Références
+
 - [jekyllrb](https://jekyllrb.com/)
+
 - [Liquid filters](https://jekyllrb.com/docs/liquid/filters/)
 
 <!-- new slide -->

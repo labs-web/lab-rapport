@@ -4,14 +4,11 @@ order : 2
 ---
 # Présentation css
 
-
 ## Recherche sur google
-
 
 - keyword
   - slide html5
-  
-note: note
+
 
 <!-- new slide --> 
 
@@ -29,13 +26,18 @@ note: note
 - [decktape](https://github.com/astefanutti/decktape)
 
 - [impress.js](https://github.com/impress/impress.js)
+
 - [slides](https://github.com/briancavalier/slides)
 
 <!-- new slide -->
 
 
-# Références
+## Références
+
 - []()
+
+- []()
+
 
 <!-- new slide -->
 
