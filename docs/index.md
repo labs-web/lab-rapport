@@ -7,9 +7,9 @@ order: 1
 
 # lab-rapport
 
-[lab-rapport](rapport.html)
+[lab-rapport](https://labs-web.github.io/lab-rapport/rapport.html)
 
 # lab-presentation
 
-[lab-presentation](presentation.html)
+[lab-presentation](https://labs-web.github.io/lab-rapport/presentation.html)
 
