@@ -5,15 +5,28 @@ order: 1
 ---
 
 # Backlog
-
-<!-- new slide -->
-
 ## Structure des dossiers
+![Structure-des-dossiers](/lab-rapport/backlog/images/Structure-des-dossiers.jpg)
 
 <!-- note -->
 
-- docs 
- - installation-jeykyll
-    - compte-rendu.installation-jeykll
-
+- docs
+  - Index.md
+  - rapport.md
+  - presentation.md
+  - Introduction
+    - images
+    - Introduction.md
+  - Conclusion
+    - images
+    - Introduction.md
+  - installation-jeykyll
+     - compte-rendu.installation-jeykll
+  - Backlog
+      - structure de dossier
+  -  rapport.md
+  -  présentation.html
 <!-- new slide -->
+
+
+
