@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 slug: /index
 order: 1
 ---

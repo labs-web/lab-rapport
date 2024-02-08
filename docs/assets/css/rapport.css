@@ -39,8 +39,21 @@ article[size="A4"] {
   background: white;
   padding: 1cm;
   margin: 1cm auto;
+  height: 26.7cm;
   /* margin-bottom: 0.5cm; */
   box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+div[size="A4"]{
+
+  display: block;
+  width: 21cm;
+  background: white;
+  padding: 1cm;
+  margin: 1cm auto;
+  /* margin-bottom: 0.5cm; */
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+
 }
 
 @media print {
@@ -50,6 +63,7 @@ article[size="A4"] {
     margin: 0;
     padding: initial;
     box-shadow: initial;
+    page-break-after: always;
   }
 
   img {
