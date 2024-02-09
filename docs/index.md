@@ -7,4 +7,4 @@ order : 1
 
 ## Presentation
 
-[Presentation](http://127.0.0.1:4000/presentation.html)
+[Presentation](https://labs-web.github.io/lab-rapport/presentation.html)
