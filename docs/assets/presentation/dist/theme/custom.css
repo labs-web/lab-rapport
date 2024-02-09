@@ -1,0 +1,46 @@
+h1,h2,h3,h4,h5,h6{
+    background-color: #00838F;
+    color: #fff !important;
+    padding: 20px;
+}
+
+h1{
+    font-size: 1.0em !important;
+    background-color: #fff;
+    color: #00838F !important;
+}
+
+h2{
+    font-size: 1.0em !important;
+}
+
+
+
+img[alt="SOLICODE"] {
+    position: absolute;
+    top: 10px;
+    left: -220px;
+    width: 40vw;
+    height: 40vh;
+}
+
+img[alt="OFPPT"] {
+    position: absolute;
+    top: 10px;
+    right: -220px;
+    width: 40vw;
+    height: 40vh;
+}
+
+
+img[alt="CNMH"] {
+    width: 30vw;
+    height: 40vh;
+    margin-left: 30%;
+}
+
+p{
+    text-align: start;
+    font-size: 20px;
+    margin-top: 50px !important;
+}
