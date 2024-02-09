@@ -58,3 +58,8 @@ article[size="A4"] {
 
 
 }
+
+/* pre code span{
+  max-width: 50px;
+  display:block;
+} */
