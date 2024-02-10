@@ -11,8 +11,6 @@ order: 2
 
 ## Structure des dossiers
 
-<!-- note -->
-
 - docs 
  - installation-jeykyll
     - compte-rendu.installation-jeykll
