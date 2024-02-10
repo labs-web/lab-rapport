@@ -3,13 +3,15 @@ layout : default
 order : 7
 ---
 
+<!-- new slide -->
+
 # Présentation css
 
 <!-- new slide -->
 
 ## Recherche sur google
 
-<!-- new detail -->
+<!-- note -->
 
 - keyword
   - slide html5
@@ -34,3 +36,5 @@ note: note
 
 # Références
 - []()
+
+<!-- new slide -->
