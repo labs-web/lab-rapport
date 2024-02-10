@@ -56,7 +56,7 @@ hr {
 	size: A4;
 	margin-top: 2cm;
 }
-@media print {
+@media all,print {
 	hr{
 		display: none;
 	}
@@ -72,7 +72,13 @@ hr {
 		page-break-after: auto;
 	}
 }
-  
+
+code{
+	border: 1px solid #666; 
+	border-radius: 2px;
+}
+
+
 /* 
 * Images
 */
