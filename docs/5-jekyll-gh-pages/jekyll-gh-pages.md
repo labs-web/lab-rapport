@@ -1,3 +1,7 @@
+---
+layout: default
+order: 5
+---
 # Configuration de jekyll avec github page
 
 ### GITHUB-PAGES-VERSION

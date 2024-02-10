@@ -1,6 +1,6 @@
 ---
 layout : default
-order : 2
+order : 5
 ---
 # Compte rendu : Installation de Jekyll
 
