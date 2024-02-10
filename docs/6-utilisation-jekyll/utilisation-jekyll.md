@@ -22,7 +22,7 @@ Convert a Markdown-formatted string into HTML.
 {{ page.excerpt | markdownify }}
 ```
 
-# Références
+## Références
 - [jekyllrb](https://jekyllrb.com/)
 - [Liquid filters](https://jekyllrb.com/docs/liquid/filters/)
 - [Jekyll cheatsheet](https://devhints.io/jekyll)

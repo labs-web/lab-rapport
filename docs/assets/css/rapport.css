@@ -28,7 +28,7 @@ hr {
 	/* Simuler la nouvelle page */
 	background-color: #FAFAFA;
 	position: relative;
-	left: -2.03cm;
+	left: -1.03cm;
     width: 21.03cm;
     height: 2cm;
     padding: 0px;
@@ -38,13 +38,19 @@ hr {
 	margin-bottom: 1cm;
 
 }
-
+#presentation-icon{
+	position: relative;
+	top: 0;
+	left: 0;
+}
 
 .page {
 	width: 21cm;
 	/* min-height: 29.7cm; */
-	padding: 2cm;
+	padding: 1cm;
 	margin: 1cm auto;
+	margin-top: 0px;
+ 
 	border: 1px #D3D3D3 solid;
 	border-radius: 5px;
 	background: white;
@@ -56,8 +62,9 @@ hr {
 	size: A4;
 	margin-top: 2cm;
 }
-@media all,print {
-	hr{
+@media print {
+
+	#presentation-icon,hr{
 		display: none;
 	}
 	.page {
@@ -142,7 +149,7 @@ h1{
 	font-weight:normal;
 }
 h2{
-	margin-top:2.0pt;
+	/* margin-top:2.0pt; */
 	margin-right:0cm;
 	margin-left:0cm;
 	margin-bottom:1pt;
@@ -154,7 +161,7 @@ h2{
 }
 h3
 	{
-	margin-top:2.0pt;
+	/* margin-top:2.0pt; */
 	margin-right:0cm;
 	margin-left:0cm;
 	margin-bottom:1pt;
@@ -166,7 +173,7 @@ h3
 }
 h4
 	{
-	margin-top:2.0pt;
+	/* margin-top:2.0pt; */
 	margin-right:0cm;
 	margin-left:0cm;
 	margin-bottom:1pt;
@@ -178,7 +185,7 @@ h4
 	font-style:italic;}
 h5
 	{
-	margin-top:2.0pt;
+	/* margin-top:2.0pt; */
 	margin-right:0cm;
 	margin-left:0cm;
 	margin-bottom:1pt;
@@ -189,7 +196,7 @@ h5
 	font-weight:normal;}
 h6
 	{
-	margin-top:2.0pt;
+	/* margin-top:2.0pt; */
 	margin-right:0cm;
 	margin-left:0cm;
 	margin-bottom:1pt;
@@ -198,5 +205,7 @@ h6
 	font-size:12.0pt;
 	color:#1F4D78;
 	font-weight:normal;}
+
+
 
 	
