@@ -6,11 +6,5 @@ slug: "aa"
 
 # Introduction
 
-
-{{site.pages}}
-{{page.url}}
-{% include eval.liquid content=page.url %}
-
-
-![Introduction]({{site.baseurl}}/1-introduction/images/introduction.png)
-![Introduction](/1-introduction/images/introduction.png)
+![Introduction](./images/introduction.png){:width="60%" height="60%" }
+*Les apprenants de solicode*
