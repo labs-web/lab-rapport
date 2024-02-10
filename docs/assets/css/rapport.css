@@ -12,6 +12,34 @@ body {
 	-moz-box-sizing: border-box;
 }
 
+/* 
+ * Séparateur des pages
+ * Cette élément est ajouter automatiquement avant l'élément h1, 
+ * en utilisant javascript
+ */
+hr:first-of-type{
+	display: none;
+}
+hr {
+	/* init hr default style */
+	border-style: none;
+	border-width: 0px;
+
+	/* Simuler la nouvelle page */
+	background-color: #FAFAFA;
+	position: relative;
+	left: -2.03cm;
+    width: 21.03cm;
+    height: 2cm;
+    padding: 0px;
+    border-top: 1px #D3D3D3 solid;
+    border-bottom: 1px #D3D3D3 solid;
+    margin-top: 1cm;
+	margin-bottom: 1cm;
+
+}
+
+
 .page {
 	width: 21cm;
 	/* min-height: 29.7cm; */
@@ -20,7 +48,7 @@ body {
 	border: 1px #D3D3D3 solid;
 	border-radius: 5px;
 	background: white;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	border: rgba(0, 0, 0, 0.2) solid 1px ;
 }
 
 
@@ -29,6 +57,9 @@ body {
 	margin-top: 2cm;
 }
 @media print {
+	hr{
+		display: none;
+	}
 	.page {
 		margin: 0;
 		padding-top: 0;
@@ -37,9 +68,8 @@ body {
 		width: initial;
 		min-height: initial;
 		box-shadow: initial;
-		background: initial;
+		background: white;
 		page-break-after: auto;
-		 
 	}
 }
   
@@ -51,6 +81,7 @@ img {
   display:block;
   margin-left:auto;
   margin-right:auto;
+
 }
 /* Nom de figure d'image */
 /* Par conception : le titre de figure est l'élément em situé aprés l'image */
@@ -78,7 +109,22 @@ font-size:12.0pt;
 text-align: justify;
 line-height: 120%;
 }
+
+/* h1::before {
+	content: "</div><div class='page'>";
+	color: blue;
+  }
+  
+h1::after {
+	content: "";
+	color: red;
+  } */
+
+
 h1{
+	/* saute de page avant h1 */
+	page-break-before: always;
+
 	margin-top:12.0pt;
 	margin-right:0cm;
 	margin-left:0cm;

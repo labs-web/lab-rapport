@@ -15,4 +15,16 @@
             </div>
         </div>
     </body>
+
+    <script>
+
+// Ajouter un séparateur des pages avant chaque élément h1
+// utilisation hr comme séparateur des pages
+document.querySelectorAll('h1')
+  .forEach((tag) => {
+    const insertBefore = (el, htmlString) =>
+        el.insertAdjacentHTML('beforebegin', htmlString);
+        insertBefore(tag, "<hr />");
+  });
+    </script>
 </html>

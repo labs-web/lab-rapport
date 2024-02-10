@@ -29,5 +29,5 @@ bundle exec jekyll serve
 - [GitHub Pages](https://jekyllrb.com/docs/github-pages/)
 - https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
 
-# Références
+## Références
 - [jekyllrb](https://jekyllrb.com/)
