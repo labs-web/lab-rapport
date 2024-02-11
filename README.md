@@ -8,6 +8,7 @@
 
 Le backlog est une liste ordonées des tâches 
 
+- **chapitre** 
 - **exposé** 
   - [1.exposé-ruby.109.md](./Backlog/exposé/1.exposé-ruby.109.md) 
   - [2.exposé-gem.110.md](./Backlog/exposé/2.exposé-gem.110.md) 
@@ -20,6 +21,7 @@ Le backlog est une liste ordonées des tâches
   - [2.init-présentation.94.md](./Backlog/feature/2.init-présentation.94.md) 
   - [2.présentation-solicode.29.md](./Backlog/feature/2.présentation-solicode.29.md) 
   - [3.présentation-css.21.md](./Backlog/feature/3.présentation-css.21.md) 
+  - [3.print-css.md](./Backlog/feature/3.print-css.md) 
   - [4.rapport-css.5.md](./Backlog/feature/4.rapport-css.5.md) 
   - [5.installation-jekyll.114.md](./Backlog/feature/5.installation-jekyll.114.md) 
   - [6.jekyll-gh-pages.115.md](./Backlog/feature/6.jekyll-gh-pages.115.md) 
