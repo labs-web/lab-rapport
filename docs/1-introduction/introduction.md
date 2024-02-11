@@ -10,7 +10,7 @@ slug: "aa"
 
 ## Introduction
 
-![Introduction](./images/introduction.png){:width="40%" height="50%" }
+![Introduction](./images/introduction.png){:width="500px" }
 *Les apprenants de solicode*
 
 <!-- new slide -->
