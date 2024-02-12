@@ -29,7 +29,8 @@ public function FormEntretienSocial($PatientID){
         $counter = $latestDossier ? (int)substr($latestDossier, 2) + 1 : 1;
         $numeroDossier = 'A-' . $counter;
         $PatientID = $PatientID;
-        return view('PoleSocial.dossier_patients.entretien', compact('type_handicap', 'couverture_medical','services','editMode','PatientID','numeroDossier'));
+        return view('PoleSocial.dossier_patients.entretien', compact('type_handicap',
+         'couverture_medical','services','editMode','PatientID','numeroDossier'));
 }
 
 ```
