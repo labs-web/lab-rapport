@@ -1,8 +1,12 @@
-# Lab Rapport
+#  
 
-## Backlog
+- Référence :   
 
-Le backlog est une liste ordonées des tâches
+ 
+
+## Backlog 
+
+Le backlog est une liste ordonées des tâches 
 
 - **feature** 
   - [1.Backlog.18.md](./Backlog/feature/1.Backlog.18.md) 
@@ -16,16 +20,17 @@ Le backlog est une liste ordonées des tâches
   - [6.table-matière.79.md](./Backlog/feature/6.table-matière.79.md) 
   - [7.présentation-lab.80.md](./Backlog/feature/7.présentation-lab.80.md) 
   - [7.rapport-lab.1.md](./Backlog/feature/7.rapport-lab.1.md) 
+## Livrables 
 
+ 
 
-## Livrables
+- /Backlog 
+  - Backlog 
+- /docs 
+  - Documentation 
+## Références 
 
-- /Backlog
-  - Backlog
-- /docs
-  - Documentation
-
-## Références
+ 
 
 - [Autoformation](#) 
-- [Exposé Jekyll](https://labs-web.github.io/exposé-jekyll/presentation.html)
+
