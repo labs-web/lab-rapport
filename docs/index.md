@@ -1,10 +1,22 @@
 ---
 layout: default
-slug: /index
 order: 1
 ---
 
+{% assign pages = site.pages | sort: "order" %}
+{% for page in pages %}
+{% if page.url != "/feed.xml" 
+and page.url != "/assets/css/style.css" 
+and  page.url != "/"  
+and page.url != "/presentation.html" %}
 
-# lab-rapport
+<!-- page.content | markdownify -->
+{{page.content }}
 
-[lab-rapport](rapport.html)
+{% endif %}
+{% endfor %}
+
+
+
+ 
+ 
