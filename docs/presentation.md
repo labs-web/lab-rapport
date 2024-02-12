@@ -14,5 +14,3 @@ order: 1
   {% endif %}
 
 {% endfor %}
- 
- 
