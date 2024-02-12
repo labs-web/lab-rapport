@@ -44,4 +44,6 @@ Le backlog est une liste ordonées des tâches
  
 
 - [Documentation](https://labs-web.github.io/lab-rapport/) 
+- [Presentation Exposé Jekyll](https://labs-web.github.io/3.exposé-jekyll/presentation.html) 
+- [Rapport Exposé Jekyll](https://labs-web.github.io/3.exposé-jekyll/rapport.html) 
 
