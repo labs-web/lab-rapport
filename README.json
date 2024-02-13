@@ -31,9 +31,22 @@
             {
                 "Titre":"Documentation",
                 "Lien":"https://labs-web.github.io/lab-rapport/"
+            },
+            {
+                
+                "Titre":"Presentation Exposé Jekyll",
+                "Lien":"https://labs-web.github.io/lab-rapport/3.exposé-jekyll/presentation.html"
+
+            },
+            {
+                
+                "Titre":"Rapport Exposé Jekyll",
+                "Lien":"https://labs-web.github.io//lab-rapport/3.exposé-jekyll/rapport.html"
+
             }
            
         ]
     } 
     
 }
+
