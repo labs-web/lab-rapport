@@ -8,10 +8,14 @@
 
 Le backlog est une liste ordonées des tâches 
 
+- **chapitre** 
 - **exposé** 
-  - [1.exposé-ruby.109.md](./Backlog/exposé/1.exposé-ruby.109.md) 
-  - [2.exposé-gem.110.md](./Backlog/exposé/2.exposé-gem.110.md) 
-  - [3.exposé-bundle.111.md](./Backlog/exposé/3.exposé-bundle.111.md) 
+  - [1.exposé-jekyll.90.md](./Backlog/exposé/1.exposé-jekyll.90.md) 
+  - [1.exposé-jekyll.md](./Backlog/exposé/1.exposé-jekyll.md) 
+  - [2.Exposé-kramdown.89.md](./Backlog/exposé/2.Exposé-kramdown.89.md) 
+  - [3.Exposé-ruby.109.md](./Backlog/exposé/3.Exposé-ruby.109.md) 
+  - [4.Exposé-gem.110.md](./Backlog/exposé/4.Exposé-gem.110.md) 
+  - [5.Exposé-bundle.111.md](./Backlog/exposé/5.Exposé-bundle.111.md) 
 - **feature** 
   - [1.Backlog.18.md](./Backlog/feature/1.Backlog.18.md) 
   - [1.init-rapport.93.md](./Backlog/feature/1.init-rapport.93.md) 
@@ -20,6 +24,7 @@ Le backlog est une liste ordonées des tâches
   - [2.init-présentation.94.md](./Backlog/feature/2.init-présentation.94.md) 
   - [2.présentation-solicode.29.md](./Backlog/feature/2.présentation-solicode.29.md) 
   - [3.présentation-css.21.md](./Backlog/feature/3.présentation-css.21.md) 
+  - [3.print-css.md](./Backlog/feature/3.print-css.md) 
   - [4.rapport-css.5.md](./Backlog/feature/4.rapport-css.5.md) 
   - [5.installation-jekyll.114.md](./Backlog/feature/5.installation-jekyll.114.md) 
   - [6.jekyll-gh-pages.115.md](./Backlog/feature/6.jekyll-gh-pages.115.md) 
@@ -31,6 +36,8 @@ Le backlog est une liste ordonées des tâches
 - **sous-tâche** 
   - [0.init-présentation.94.md](./Backlog/sous-tâche/0.init-présentation.94.md) 
   - [0.init-rapport.93.md](./Backlog/sous-tâche/0.init-rapport.93.md) 
+  - [3.rappel-css.md](./Backlog/sous-tâche/3.rappel-css.md) 
+- **thème** 
 ## Livrables 
 
  
@@ -44,4 +51,6 @@ Le backlog est une liste ordonées des tâches
  
 
 - [Documentation](https://labs-web.github.io/lab-rapport/) 
+- [Presentation Exposé Jekyll](https://labs-web.github.io/lab-rapport/3.exposé-jekyll/presentation.html) 
+- [Rapport Exposé Jekyll](https://labs-web.github.io//lab-rapport/3.exposé-jekyll/rapport.html) 
 
