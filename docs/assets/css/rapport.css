@@ -1,18 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
-* {
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-}
-
-
 body {
+
 	margin: 0;
 	padding: 0;
 	background-color: #FAFAFA;
 	font: 12pt "Roboto";
 }
-
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
 
 /* 
  * Séparateur des pages
@@ -96,7 +94,6 @@ img {
   display:block;
   margin-left:auto;
   margin-right:auto;
-  max-width: 100%;
 
 }
 /* Nom de figure d'image */
