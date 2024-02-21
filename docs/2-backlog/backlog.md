@@ -1,6 +1,6 @@
 ---
 layout: default
-title: structure-des-dossciers.md
+chapitre: structure-des-dossciers.md
 order: 2
 ---
 

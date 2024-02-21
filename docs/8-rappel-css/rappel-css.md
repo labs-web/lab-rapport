@@ -1,4 +1,9 @@
-# Rappel CSs
+---
+layout: default
+chapitre: Rappel CSS
+order: 8
+---
+# Rappel CSS
 
 ## Pseudo-classes
 

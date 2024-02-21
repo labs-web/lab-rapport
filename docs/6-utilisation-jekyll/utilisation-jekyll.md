@@ -1,5 +1,6 @@
 ---
 layout: default
+chapitre: Utilisation de jekyll
 order: 6
 ---
 # Utilisation de jekyll
