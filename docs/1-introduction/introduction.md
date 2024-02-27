@@ -1,7 +1,7 @@
 ---
 layout: default
+chapitre: "Solicode"
 order: 1
-slug: "aa"
 ---
 
 # Solicode 
