@@ -142,7 +142,6 @@ h1::after {
 	color: red;
   } */
 
-
 h1 {
 	/* saute de page avant h1 */
 	page-break-before: always;
